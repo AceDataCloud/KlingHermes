@@ -1,0 +1,14 @@
+{
+  "name": "acedatacloud-kling",
+  "version": "1.0.0",
+  "description": "Kling 3 Turbo text-to-video generation through your Ace Data Cloud account.",
+  "author": "AceDataCloud",
+  "requires_hermes": ">=0.21.6",
+  "provides_tools": [
+    "acedata_kling_generate",
+    "acedata_kling_task"
+  ],
+  "requires_env": [
+    "ACEDATACLOUD_API_KEY"
+  ]
+}
