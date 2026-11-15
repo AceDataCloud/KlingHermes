@@ -1,12 +1,12 @@
 {
   "name": "acedatacloud-kling",
   "version": "1.0.0",
-  "description": "Kling 3 Turbo text-to-video generation through your Ace Data Cloud account.",
   "author": "AceDataCloud",
-  "requires_hermes": ">=0.21.6",
+  "description": "Kling by Ace Data Cloud: source-only single-service Git plugin. The primary operation spends paid Credits without a Hermes approval prompt; model options can increase cost. Prompts/reference URLs go to api.acedata.cloud. Never automatically retry a paid request.",
+  "requires_hermes": ">=0.23.1",
   "provides_tools": [
-    "acedata_kling_generate",
-    "acedata_kling_task"
+    "acedatacloud_single_kling_generate",
+    "acedatacloud_single_kling_task"
   ],
   "requires_env": [
     "ACEDATACLOUD_API_KEY"

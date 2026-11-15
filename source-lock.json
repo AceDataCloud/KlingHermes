@@ -1,0 +1,36 @@
+{
+  "canonical_repository": "https://github.com/AceDataCloud/AceDataCloudMediaHermes",
+  "canonical_commit": "4ebf0fa803b92a1bc8b41fb4d4cd3ce3aacf06a7",
+  "generator": "scripts/export_service.py",
+  "service": "kling",
+  "consumer_repository": "https://github.com/AceDataCloud/KlingHermes",
+  "canonical_contract": "services/kling.json",
+  "identity_map": {
+    "tool_prefix": [
+      "acedatacloud_kling",
+      "acedatacloud_single_kling"
+    ],
+    "toolset": [
+      "acedatacloud-kling",
+      "acedatacloud-single-kling"
+    ],
+    "native_image_provider": null
+  },
+  "transport_sha256": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
+  "canonical_operation_sha256": "b172f9a25aefafdf8dcba4fc7cbd3608f140a15f665239ab290412ccf65dffd1",
+  "generated_files": {
+    "__init__.py": "befe7ccc20f9dc0cd05d3c62fe25f036ab59371a82de41ef4edbc581af803aa5",
+    "client.py": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
+    "image_provider.py": "183dc1f72fa1905364466aa30da14d82c074d3484ee6a6a6a5b739a62342490c",
+    "services/kling.json": "aeb884fccc9a8d2e9ac2e820f2d58081958d02962cd4c87a022253f3590fd550",
+    "plugin.yaml": "f5cf20077fb2e01eef73d7ec4e69c395371851adf8b5290346c8380c1df29d1d",
+    "tests/test_contracts.py": "fa834427da679d6abb5a4a697f2d8a5ea18fcd9589aef7cb7077c3ebf5ff7dd3",
+    "tests/test_registration.py": "a3b2904d16e44ab70696555165f6b05465cfc978b5fe5160cbca9acebc22845d",
+    "tests/test_source_profile.py": "d29b78f9671e46fccfa1239c8f864ae282c19c8f7d9411b8b2ac2138373336ba",
+    "scripts/check_runtime.py": "be594c81cf4436cc9689babae0344815268aab33345afc391221079be151e90f",
+    "LICENSE": "72d30730d068e067be58878959bac2450f5a05f2b2e3c365cdc13a0181635c3c",
+    ".github/workflows/validate.yml": "da00ff80070f089ccc5b0a1a1299251486a87cf5b377a1e8b5e32a83dce2babc",
+    "README.md": "47c82b68edc2ebf1f32018c4cc0a8229cae1d210f6c8ed462ca7d9265536dc96",
+    "readme/README_zh_Hans.md": "04e152bf12344ecb16e727f44356f877856aac09bd8e5dc71d35894cfa502de3"
+  }
+}
